@@ -1,7 +1,6 @@
 Columnsort implementation
 
-Columnsort works as follows. It begins with n = r*s values placed in an r * s matrix (2-D array – you'll need to look up somewhere how to handle 2-D arrays in C++), where
-r mod s = 0 and r >= 2(s - 1)^2
+Columnsort works as follows. It begins with n = r*s values placed in an r * s matrix, where r mod s = 0 and r >= 2(s - 1)^2
 
 Columnsort involves 8 steps:
 
